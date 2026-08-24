@@ -1,7 +1,7 @@
-package me.margueritedefrize.wecook.dto.measure.types;
+package me.margueritedefrize.wecook.dto.measure.type;
 
 import me.margueritedefrize.wecook.dto.measure.Measure;
-import me.margueritedefrize.wecook.dto.strings.Pluralisable;
+import me.margueritedefrize.wecook.utils.Pluralisable;
 import me.margueritedefrize.wecook.utils.StringFormats;
 
 import java.math.BigDecimal;

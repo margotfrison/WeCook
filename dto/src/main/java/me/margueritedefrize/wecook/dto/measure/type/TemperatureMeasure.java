@@ -1,8 +1,8 @@
-package me.margueritedefrize.wecook.dto.measure.types;
+package me.margueritedefrize.wecook.dto.measure.type;
 
 import lombok.EqualsAndHashCode;
 import lombok.Value;
-import me.margueritedefrize.wecook.dto.strings.Pluralisable;
+import me.margueritedefrize.wecook.utils.Pluralisable;
 
 import java.math.BigDecimal;
 

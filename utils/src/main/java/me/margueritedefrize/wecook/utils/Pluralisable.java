@@ -1,4 +1,4 @@
-package me.margueritedefrize.wecook.dto.strings;
+package me.margueritedefrize.wecook.utils;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;

@@ -3,7 +3,7 @@ package me.margueritedefrize.wecook.dto.measure;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import me.margueritedefrize.wecook.dto.strings.Pluralisable;
+import me.margueritedefrize.wecook.utils.Pluralisable;
 
 import java.math.BigDecimal;
 

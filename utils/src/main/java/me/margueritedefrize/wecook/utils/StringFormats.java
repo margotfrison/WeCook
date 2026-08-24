@@ -6,7 +6,7 @@ import java.time.Duration;
 
 public class StringFormats {
   private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("0.##");
-  private static final DecimalFormat INTEGER_FORMAT = new DecimalFormat("0.");
+  private static final DecimalFormat INTEGER_FORMAT = new DecimalFormat("0");
 
   public static String decimal(BigDecimal bigDecimal) {
     return DECIMAL_FORMAT.format(bigDecimal);

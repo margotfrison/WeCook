@@ -2,6 +2,7 @@ package me.margueritedefrize.wecook.dto.step.dictionary;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Value;
 import me.margueritedefrize.wecook.dto.equipment.Equipment;
 import me.margueritedefrize.wecook.dto.measure.MeasureType;
 import me.margueritedefrize.wecook.dto.step.Step;
@@ -10,10 +11,10 @@ import me.margueritedefrize.wecook.dto.step.StepType;
 import java.math.BigDecimal;
 
 @EqualsAndHashCode(callSuper = true)
-@Data
+@Value
 public class StepPreheat extends Step {
-  private Equipment equipment;
-  private BigDecimal preheatTemperature;
+  Equipment equipment;
+  BigDecimal preheatTemperature;
 
   private StepPreheat(Equipment equipment, BigDecimal preheatTemperature) {
     super(StepType.MISE_EN_PLACE);

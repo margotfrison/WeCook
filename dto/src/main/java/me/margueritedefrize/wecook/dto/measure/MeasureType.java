@@ -3,8 +3,8 @@ package me.margueritedefrize.wecook.dto.measure;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.Value;
-import me.margueritedefrize.wecook.dto.measure.types.*;
-import me.margueritedefrize.wecook.dto.strings.Pluralisable;
+import me.margueritedefrize.wecook.dto.measure.type.*;
+import me.margueritedefrize.wecook.utils.Pluralisable;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -59,6 +59,16 @@ public class MeasureType<T extends Measure> {
           LookMeasure.of("Smoked"),
           LookMeasure.of("Pale gray"),
           LookMeasure.of("Crusty")
+      )
+  );
+  public static final MeasureType<ReduceMeasure> REDUCE = new MeasureType<>(
+      ReduceMeasure.of("Reduced"),
+      List.of(
+          ReduceMeasure.of("Half reduced"),
+          ReduceMeasure.of("Demi glace"),
+          ReduceMeasure.of("Glace"),
+          ReduceMeasure.of("Syrup"),
+          ReduceMeasure.of("Napé")
       )
   );
 
