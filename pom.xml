@@ -9,6 +9,7 @@
   <modules>
     <module>dto</module>
     <module>utils</module>
+    <module>backend</module>
   </modules>
 
   <properties>
